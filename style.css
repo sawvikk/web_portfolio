@@ -10,6 +10,7 @@ color:orange;
 }
 .a{
     /* background: grey; */
+    border-left:10px red solid;
     width:40%; float: left;
     margin-left:5%; padding-left:2%;
 }
@@ -27,8 +28,23 @@ section{
     height:500px;
 }
 .second{
-    border:1px red solid; 
     background-image: url("Images/dream-bg.png");
     background-repeat: no-repeat;
     background-position:right;
 }
+.b{float:left;width:40%;margin:4%;
+padding:0%; box-shadow:2px 5px 50px 5px grey;
+/* padding:0px 3px 0px 0px; */
+}
+.c
+{   height:50vh; float:left;
+    width:1.5%; 
+    }
+.d{  margin:1%; padding:1%;
+    float:left; width:70%; height: 40vh;
+}
+.e{background: linear-gradient(red,orange,yellow);}
+.f{background: linear-gradient(blue,rgb(101, 101, 255),rgb(0, 247, 255));}
+.yellow{ color:orange; font-size: 30px; font-weight:600;}
+.yello{ color:rgb(0, 102, 255); font-size: 30px; font-weight:600;}
+.d p{ font-size: 22px;  }
