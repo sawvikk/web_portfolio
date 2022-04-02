@@ -1,15 +1,24 @@
-*{
-margin:0; padding:0; box-sizing: border-box;
-
+body{
+    margin:0; padding:0; box-sizing: border-box;
 }
+
 h1{font-family: 'BIZ UDPMincho', serif;
     font-size:50px;
 }
 .l{
 color:orange;
 }
-.a{background: grey;
-    width:46%; float:left; 
-    margin:0% 0% 0% 2%; padding:0% 0% 0% 3%; border:0%;
+.a{
+    /* background: grey; */
+    width:40%; float: left;;
+    margin-left:5%; padding-left:2%;
 }
-.a img{ width:100%;}
+.a img{height:300px; }
+.top-banner{
+    border:1px red solid; 
+    background-image: url("Images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height:500px;
+}
