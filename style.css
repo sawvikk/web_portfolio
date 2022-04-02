@@ -1,0 +1,15 @@
+*{
+margin:0; padding:0; box-sizing: border-box;
+
+}
+h1{font-family: 'BIZ UDPMincho', serif;
+    font-size:50px;
+}
+.l{
+color:orange;
+}
+.a{background: grey;
+    width:46%; float:left; 
+    margin:0% 0% 0% 2%; padding:0% 0% 0% 3%; border:0%;
+}
+.a img{ width:100%;}
